@@ -1,0 +1,10 @@
+..\bin\Login.dll
+..\bin\Login.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Login.frmMain.resources
+obj\Debug\Login.csproj.GenerateResource.Cache
+obj\Debug\Login.dll
+obj\Debug\Login.pdb
+obj\Debug\Login.Properties.Resources.resources
+..\..\..\bin\Login.dll
+..\..\..\bin\Login.pdb

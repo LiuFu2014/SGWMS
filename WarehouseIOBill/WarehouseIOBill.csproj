@@ -1,0 +1,335 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2750BBA-EB94-4565-B178-CF00276EA5A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WarehouseIOBill</RootNamespace>
+    <AssemblyName>WarehouseIOBill</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppBaseClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\AppBaseClass.dll</HintPath>
+    </Reference>
+    <Reference Include="AppBaseForm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\AppBaseForm.dll</HintPath>
+    </Reference>
+    <Reference Include="CommIF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DBBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\DBBase.dll</HintPath>
+    </Reference>
+    <Reference Include="FileFun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\FileFun.dll</HintPath>
+    </Reference>
+    <Reference Include="Login, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\Login.dll</HintPath>
+    </Reference>
+    <Reference Include="SeDBClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\SeDBClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextPYWB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\TextPYWB.dll</HintPath>
+    </Reference>
+    <Reference Include="UserManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\UserManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WarehouseBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\WarehouseBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBFuns.cs" />
+    <Compile Include="frmInnerAccont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInnerAccont.Designer.cs">
+      <DependentUpon>frmInnerAccont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillIn.Designer.cs">
+      <DependentUpon>frmBillIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillOut.Designer.cs">
+      <DependentUpon>frmBillOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckAccept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckAccept.Designer.cs">
+      <DependentUpon>frmCheckAccept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemEditor.designer.cs">
+      <DependentUpon>FrmItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemEditorIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemEditorIn.Designer.cs">
+      <DependentUpon>frmItemEditorIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQryIOBillDtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQryIOBillDtl.Designer.cs">
+      <DependentUpon>frmQryIOBillDtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\dsBillOut.cs">
+      <DependentUpon>dsBillOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\dsBillOut.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBillOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\frmReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpts\frmReportView.Designer.cs">
+      <DependentUpon>frmReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\rptBillIn.cs">
+      <DependentUpon>rptBillIn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Rpts\rptBillOut.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBillOut.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rptDataSet.cs">
+      <DependentUpon>rptDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rptDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\RptIOBill.cs" />
+    <Compile Include="Rpts\rptBillIn_Ex.cs">
+      <DependentUpon>rptBillIn_Ex.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Rpts\rptBillOut_Ex.cs">
+      <DependentUpon>rptBillOut_Ex.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarehouseIOBill.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmInnerAccont.resx">
+      <DependentUpon>frmInnerAccont.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBillIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillOut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBillOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckAccept.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCheckAccept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemEditor.resx">
+      <DependentUpon>FrmItemEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemEditorIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmItemEditorIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQryIOBillDtl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQryIOBillDtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\frmReportView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptBillIn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBillIn.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptBillOut.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBillOut.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptBillIn_Ex.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBillIn_Ex.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptBillOut_Ex.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBillOut_Ex.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Rpts\dsBillOut.xsc">
+      <DependentUpon>dsBillOut.xsd</DependentUpon>
+    </None>
+    <None Include="Rpts\dsBillOut.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBillOut.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rpts\dsBillOut.xss">
+      <DependentUpon>dsBillOut.xsd</DependentUpon>
+    </None>
+    <None Include="Rpts\rptDataSet.xsc">
+      <DependentUpon>rptDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Rpts\rptDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>rptDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rpts\rptDataSet.xss">
+      <DependentUpon>rptDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{69B9B8E7-7B42-4405-8B0D-30EA6212DBE3}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBCommInfo\DBCommInfo.csproj">
+      <Project>{25EAF977-A223-4F9B-9A5A-F3DF3058DCDB}</Project>
+      <Name>DBCommInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PubDBCommFuns\PubDBCommFuns.csproj">
+      <Project>{F1FE8B25-9403-4C69-AFB1-2962EDECE652}</Project>
+      <Name>PubDBCommFuns</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WareStore\WareStore.csproj">
+      <Project>{5174D418-01B6-429C-9859-7CAC380F2C18}</Project>
+      <Name>WareStore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

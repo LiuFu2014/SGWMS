@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="41173.8295646991" ReportOptions.Description.Text="" ReportOptions.LastChange="41173.8299918519" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="0844617461736574730E00095661726961626C65730E00055374796C650E00">
+  <TfrxReportPage Name="" PaperWidth="82" PaperHeight="47" PaperSize="256" LeftMargin="3" RightMargin="1" TopMargin="3" BottomMargin="1" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxBarCodeView Name="BarCode" Left="50.01577" Top="-9.45671" Width="178" Height="152.62214" GroupIndex="0" BarType="bcCode128A" Rotation="0" Text="10006" Zoom="2"/>
+    <TfrxMemoView Name="txt_PltSpec" Left="37.7953" Top="137.72449" Width="94.48825" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" Memo.Text="ÍÐÅÌ" ParentFont="False"/>
+    <TfrxMemoView Name="txt_Remark" Left="132.28355" Top="137.72449" Width="79.37013" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" Memo.Text="µÍ»õÎ»" ParentFont="False"/>
+  </TfrxReportPage>
+</TfrxReport>

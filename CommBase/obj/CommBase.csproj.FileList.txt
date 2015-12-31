@@ -1,0 +1,9 @@
+..\bin\CommBase.dll
+..\bin\CommBase.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CommBase.dll
+obj\Debug\CommBase.pdb
+obj\Debug\Zqm.CommBase.FormBase.resources
+obj\Debug\CommBase.csproj.GenerateResource.Cache
+..\..\bin\CommBase.dll
+..\..\bin\CommBase.pdb

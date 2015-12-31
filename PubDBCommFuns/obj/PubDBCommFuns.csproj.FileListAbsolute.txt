@@ -1,0 +1,35 @@
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\bin\PubDBCommFuns.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\bin\PubDBCommFuns.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+D:\my files\桌面\WMS 标准\bin\PubDBCommFuns.dll
+D:\my files\桌面\WMS 标准\bin\PubDBCommFuns.pdb
+D:\my files\桌面\WMS 标准\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS 标准\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+D:\my files\桌面\WMS 标准\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+D:\my files\桌面\WMS   标准合并版\bin\PubDBCommFuns.dll
+D:\my files\桌面\WMS   标准合并版\bin\PubDBCommFuns.pdb
+D:\my files\桌面\WMS   标准合并版\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS   标准合并版\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+D:\my files\桌面\WMS   标准合并版\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.pdb
+F:\Project\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.dll
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\bin\PubDBCommFuns.pdb
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\ResolveAssemblyReference.cache
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\PubDBCommFuns.dll
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModulePub\PubDBCommFuns\obj\Debug\PubDBCommFuns.pdb

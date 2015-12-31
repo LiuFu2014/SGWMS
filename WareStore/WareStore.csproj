@@ -1,0 +1,504 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5174D418-01B6-429C-9859-7CAC380F2C18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WareStore</RootNamespace>
+    <AssemblyName>WareStore</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommIF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DataInFromMid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\DataInFromMid.dll</HintPath>
+    </Reference>
+    <Reference Include="DBBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\DBBase.dll</HintPath>
+    </Reference>
+    <Reference Include="DBCommInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\DBCommInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="SeDBClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\SeDBClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextPYWB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\TextPYWB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBFuns.cs" />
+    <Compile Include="Form_StockMCheckFilter1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_StockMCheckFilter1.designer.cs">
+      <DependentUpon>Form_StockMCheckFilter1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillRemove.Designer.cs">
+      <DependentUpon>frmBillRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChkDtlWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChkDtlWrite.Designer.cs">
+      <DependentUpon>frmChkDtlWrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChkPosList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChkPosList.Designer.cs">
+      <DependentUpon>frmChkPosList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDtlAjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDtlAjust.Designer.cs">
+      <DependentUpon>frmDtlAjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMergePallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMergePallet.Designer.cs">
+      <DependentUpon>frmMergePallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelPosFromAndTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelPosFromAndTo.Designer.cs">
+      <DependentUpon>frmSelPosFromAndTo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\frmRptInOutRece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpts\frmRptInOutRece.Designer.cs">
+      <DependentUpon>frmRptInOutRece.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemEditor.designer.cs">
+      <DependentUpon>FrmItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMoving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMoving.designer.cs">
+      <DependentUpon>frmMoving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelBillInDtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelBillInDtl.Designer.cs">
+      <DependentUpon>frmSelBillInDtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelDoBadProdMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelDoBadProdMode.Designer.cs">
+      <DependentUpon>frmSelDoBadProdMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectCell.designer.cs">
+      <DependentUpon>FrmSelectCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelIOBillMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelIOBillMat.Designer.cs">
+      <DependentUpon>frmSelIOBillMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelItemList.Designer.cs">
+      <DependentUpon>frmSelItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelMaterial.Designer.cs">
+      <DependentUpon>frmSelMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelStkMaterail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelStkMaterail.Designer.cs">
+      <DependentUpon>frmSelStkMaterail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStBadMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStBadMaterial.Designer.cs">
+      <DependentUpon>frmStBadMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStockMAjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStockMAjust.designer.cs">
+      <DependentUpon>FrmStockMAjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStockMCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStockMCheck.designer.cs">
+      <DependentUpon>FrmStockMCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStockMCheckFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStockMCheckFilter.Designer.cs">
+      <DependentUpon>FrmStockMCheckFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStoreBatchNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoreBatchNo.Designer.cs">
+      <DependentUpon>frmStoreBatchNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTools.cs" />
+    <Compile Include="Rpts\FrmRptShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpts\FrmRptShow.Designer.cs">
+      <DependentUpon>FrmRptShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\frmRptViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpts\frmRptViewer.Designer.cs">
+      <DependentUpon>frmRptViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\frmSlackMatCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpts\frmSlackMatCount.Designer.cs">
+      <DependentUpon>frmSlackMatCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\InOutRece.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InOutRece.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\myDS.cs">
+      <DependentUpon>myDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\myDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rpts\InOutReceAll.cs">
+      <DependentUpon>InOutReceAll.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Rpts\rptSlackMatCount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSlackMatCount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rptCheckList.cs">
+      <DependentUpon>rptCheckList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Rpts\rptCheckDtl.cs">
+      <DependentUpon>rptCheckDtl.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WareStore.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_StockMCheckFilter1.resx">
+      <DependentUpon>Form_StockMCheckFilter1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillRemove.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBillRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChkDtlWrite.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChkDtlWrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChkPosList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChkPosList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDtlAjust.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDtlAjust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMergePallet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergePallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelPosFromAndTo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelPosFromAndTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\frmRptInOutRece.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRptInOutRece.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemEditor.resx">
+      <DependentUpon>FrmItemEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMoving.resx">
+      <DependentUpon>frmMoving.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelBillInDtl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelBillInDtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelDoBadProdMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelDoBadProdMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectCell.resx">
+      <DependentUpon>FrmSelectCell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelIOBillMat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelIOBillMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelItemList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelMaterial.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelStkMaterail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelStkMaterail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStBadMaterial.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStBadMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStockMAjust.resx">
+      <DependentUpon>FrmStockMAjust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStockMCheck.resx">
+      <DependentUpon>FrmStockMCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStockMCheckFilter.resx">
+      <DependentUpon>FrmStockMCheckFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStoreBatchNo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStoreBatchNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\FrmRptShow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRptShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\frmRptViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRptViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\frmSlackMatCount.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSlackMatCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\InOutRece.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InOutRece.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\InOutReceAll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InOutReceAll.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptSlackMatCount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSlackMatCount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptCheckList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCheckList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptCheckDtl.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCheckDtl.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rpts\myDS.xsc">
+      <DependentUpon>myDS.xsd</DependentUpon>
+    </None>
+    <None Include="Rpts\myDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rpts\myDS.xss">
+      <DependentUpon>myDS.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppBaseClass\AppBaseClass.csproj">
+      <Project>{3131FB42-A928-4D83-B56B-653B3D5F214D}</Project>
+      <Name>AppBaseClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppBaseForm\AppBaseForm.csproj">
+      <Project>{2E454991-8A43-4B41-B190-DF4C465EDD3C}</Project>
+      <Name>AppBaseForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{69B9B8E7-7B42-4405-8B0D-30EA6212DBE3}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataImpExp_Source\DataImpExp.csproj">
+      <Project>{A9610B64-2AB0-4199-B66E-A18750F04B80}</Project>
+      <Name>DataImpExp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileFun\FileFun.csproj">
+      <Project>{8C990C0B-08D5-4C68-9D41-2AF1A040B092}</Project>
+      <Name>FileFun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Login\Login.csproj">
+      <Project>{30DE72B6-4221-4666-AF30-8A336C761FEF}</Project>
+      <Name>Login</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PubDBCommFuns\PubDBCommFuns.csproj">
+      <Project>{F1FE8B25-9403-4C69-AFB1-2962EDECE652}</Project>
+      <Name>PubDBCommFuns</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WarehouseBase_Source\WarehouseBase.csproj">
+      <Project>{940F7151-1A82-4F37-93DD-D2D7A11B66A2}</Project>
+      <Name>WarehouseBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

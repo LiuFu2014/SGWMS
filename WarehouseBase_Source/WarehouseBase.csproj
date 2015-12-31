@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{940F7151-1A82-4F37-93DD-D2D7A11B66A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WarehouseBase</RootNamespace>
+    <AssemblyName>WarehouseBase</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/WarehouseBase/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="CommIF">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="CommBase">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CommBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="UserManager">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>UserManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AppBaseClass">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>AppBaseClass.dll</HintPath>
+    </Reference>
+    <Reference Include="PubDBCommFuns">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>PubDBCommFuns.dll</HintPath>
+    </Reference>
+    <Reference Include="DBCommInfo">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DBCommInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="SeDBClient">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SeDBClient.dll</HintPath>
+    </Reference>
+    <Reference Include="FileFun">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>FileFun.dll</HintPath>
+    </Reference>
+    <Reference Include="TextPYWB">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>TextPYWB.dll</HintPath>
+    </Reference>
+    <Reference Include="ZqmXml">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ZqmXml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmSelMaterialInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockPositInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmBtchUpdateEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmBaseItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockMaterTypeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmCellPltSpec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\DBFuns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockOrderTypeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockBoxInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockAreaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\Form_StockPositFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseBase\frmWCarRows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmNewPltId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockMaterInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseBase\frmMatMappingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseBase.Properties\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmMgrArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmStockPalletInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseBase.Properties\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\DoBatchUpdateData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\FrmUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\WarehouseBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\frmBatchUpdatePosInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareBaseMS\DoSelMaterialEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="WareBaseMS\frmBaseItem.resx">
+      <DependentUpon>frmBaseItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockOrderTypeInfo.resx">
+      <DependentUpon>FrmStockOrderTypeInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmSelMaterialInfo.resx">
+      <DependentUpon>frmSelMaterialInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockMaterInfo.resx">
+      <DependentUpon>FrmStockMaterInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseBase.Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseBase\frmMatMappingList.resx">
+      <DependentUpon>frmMatMappingList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmUnit.resx">
+      <DependentUpon>FrmUnit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockInfo.resx">
+      <DependentUpon>FrmStockInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmMgrArea.resx">
+      <DependentUpon>frmMgrArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmBtchUpdateEditor.resx">
+      <DependentUpon>frmBtchUpdateEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockPalletInfo.resx">
+      <DependentUpon>FrmStockPalletInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmNewPltId.resx">
+      <DependentUpon>frmNewPltId.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockMaterTypeInfo.resx">
+      <DependentUpon>FrmStockMaterTypeInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockBoxInfo.resx">
+      <DependentUpon>FrmStockBoxInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockAreaInfo.resx">
+      <DependentUpon>FrmStockAreaInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmCellPltSpec.resx">
+      <DependentUpon>frmCellPltSpec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\FrmStockPositInfo.resx">
+      <DependentUpon>FrmStockPositInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\Form_StockPositFilter.resx">
+      <DependentUpon>Form_StockPositFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseBase\frmWCarRows.resx">
+      <DependentUpon>frmWCarRows.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareBaseMS\frmBatchUpdatePosInfo.resx">
+      <DependentUpon>frmBatchUpdatePosInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>False</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppBaseForm\AppBaseForm.csproj">
+      <Project>{2E454991-8A43-4B41-B190-DF4C465EDD3C}</Project>
+      <Name>AppBaseForm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

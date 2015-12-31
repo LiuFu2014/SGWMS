@@ -1,0 +1,16 @@
+E:\WMS\BIN\DataImporter_BJJunXu.dll
+E:\WMS\BIN\DataImporter_BJJunXu.pdb
+E:\WMS\DataImporter_BJJunXu\obj\Debug\ResolveAssemblyReference.cache
+E:\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.csproj.ResolveComReference.cache
+E:\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter.frmInBillImp.resources
+E:\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.csproj.GenerateResource.Cache
+E:\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.dll
+E:\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.pdb
+E:\北京海淀立库\WMS\BIN\DataImporter_BJJunXu.dll
+E:\北京海淀立库\WMS\BIN\DataImporter_BJJunXu.pdb
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\ResolveAssemblyReference.cache
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.csproj.ResolveComReference.cache
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter.frmInBillImp.resources
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.csproj.GenerateResource.Cache
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.dll
+E:\北京海淀立库\WMS\DataImporter_BJJunXu\obj\Debug\DataImporter_BJJunXu.pdb

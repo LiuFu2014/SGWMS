@@ -1,0 +1,162 @@
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\SunEast.App.frmMoving.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\SunEast.App.FrmSelectCell.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\BIN\WareStore.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\BIN\WareStore.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\WareStore.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WareStore\obj\Debug\WareStore.pdb
+D:\my files\桌面\WMS 标准\BIN\WareStore.dll
+D:\my files\桌面\WMS 标准\BIN\WareStore.pdb
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.frmMoving.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.FrmSelectCell.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\WareStore.dll
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\WareStore.pdb
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.Form_StockMCheckFilter1.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.FrmStockMAjust.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.FrmStockMCheck.resources
+D:\my files\桌面\WMS 标准\WareStore\obj\Debug\SunEast.App.FrmStockMCheckFilter.resources
+D:\my files\桌面\WMS   标准合并版\BIN\WareStore.dll
+D:\my files\桌面\WMS   标准合并版\BIN\WareStore.pdb
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.Form_StockMCheckFilter1.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.frmMoving.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.FrmSelectCell.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.FrmStockMAjust.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.FrmStockMCheck.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\SunEast.App.FrmStockMCheckFilter.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\WareStore.dll
+D:\my files\桌面\WMS   标准合并版\WareStore\obj\Debug\WareStore.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\BIN\WareStore.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\BIN\WareStore.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.Form_StockMCheckFilter1.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmBillRemove.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmChkDtlWrite.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmChkPosList.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmDtlAjust.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmMoving.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmSelBillInDtl.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmSelDoBadProdMode.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.FrmSelectCell.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmSelItemList.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmSelMaterial.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmSelStkMaterail.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.frmStBadMaterial.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.FrmStockMAjust.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.FrmStockMCheck.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\SunEast.App.FrmStockMCheckFilter.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\BIN\WareStore.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\BIN\WareStore.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.frmStoreBatchNo.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.Form_StockMCheckFilter1.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmBillRemove.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmChkDtlWrite.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmChkPosList.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmDtlAjust.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.FrmItemEditor.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmMoving.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelBillInDtl.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelDoBadProdMode.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.FrmSelectCell.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelIOBillMat.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelItemList.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelMaterial.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmSelStkMaterail.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.FrmStockMAjust.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.FrmStockMCheck.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.FrmStockMCheckFilter.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmStoreBatchNo.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStoreMS.frmStBadMaterial.resources
+C:\Users\soft\Desktop\Pro\BIN\WareStore.dll
+C:\Users\soft\Desktop\Pro\BIN\WareStore.pdb
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.Form_StockMCheckFilter1.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmBillRemove.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmChkDtlWrite.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmChkPosList.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmDtlAjust.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.FrmItemEditor.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmMoving.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelBillInDtl.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelDoBadProdMode.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.FrmSelectCell.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelIOBillMat.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelItemList.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelMaterial.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmSelStkMaterail.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmStBadMaterial.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.FrmStockMAjust.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.FrmStockMCheck.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.FrmStockMCheckFilter.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStoreMS.frmStoreBatchNo.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.dll
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.pdb
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.frmRptInOutRece.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.Rpts.InOutRece.rpt
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.Rpts.FrmRptShow.resources
+C:\Users\soft\Desktop\Pro\WareStore\obj\Debug\WareStore.Rpts.InOutReceAll.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.InOutRece.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.InOutReceAll.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.frmRptInOutRece.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.FrmRptShow.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.rptSlackMatCount.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.frmRptViewer.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.frmSlackMatCount.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.rptCheckList.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WareStore\obj\Debug\WareStore.Rpts.rptCheckDtl.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\WareStore.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\WareStore.pdb
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.InOutRece.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.InOutReceAll.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.rptSlackMatCount.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.rptCheckList.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.rptCheckDtl.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.Form_StockMCheckFilter1.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmBillRemove.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmChkDtlWrite.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmChkPosList.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmDtlAjust.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmMergePallet.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelPosFromAndTo.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.frmRptInOutRece.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.FrmItemEditor.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmMoving.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelBillInDtl.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelDoBadProdMode.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.FrmSelectCell.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelIOBillMat.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelItemList.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelMaterial.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmSelStkMaterail.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmStBadMaterial.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.FrmStockMAjust.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.FrmStockMCheck.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.FrmStockMCheckFilter.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStoreMS.frmStoreBatchNo.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Properties.Resources.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.FrmRptShow.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.Rpts.frmRptViewer.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.frmSlackMatCount.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.csproj.GenerateResource.Cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WareStore\obj\Debug\WareStore.pdb

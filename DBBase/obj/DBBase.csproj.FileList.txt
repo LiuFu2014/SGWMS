@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+..\bin\DBBase.dll
+..\bin\DBBase.pdb
+obj\Debug\DBBase.dll
+obj\Debug\DBBase.pdb
+..\..\bin\DBBase.dll
+..\..\bin\DBBase.pdb

@@ -1,0 +1,7 @@
+..\bin\AppBaseClass.dll
+..\bin\AppBaseClass.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AppBaseClass.dll
+obj\Debug\AppBaseClass.pdb
+..\..\bin\AppBaseClass.dll
+..\..\bin\AppBaseClass.pdb

@@ -1,0 +1,104 @@
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\WarehouseIOBill.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\WarehouseIOBill.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\AppBaseClass.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\AppBaseForm.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\CommBase.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\CommIF.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\DBBase.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\DBCommInfo.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\FileFun.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\Login.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\PubDBCommFuns.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\SeDBClient.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\TextPYWB.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\ZqmSocketClient.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\CommIF.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\FileFun.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\Login.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\DBCommInfo.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\SeDBClient.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\PubDBCommFuns.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\bin\Debug\ZqmSocketClient.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.FrmBillIn.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\BIN\WarehouseIOBill.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\BIN\WarehouseIOBill.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillIn.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillOut.resources
+D:\my files\桌面\WMS 标准\BIN\WarehouseIOBill.dll
+D:\my files\桌面\WMS 标准\BIN\WarehouseIOBill.pdb
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmBillIn.resources
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillIn.resources
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillOut.resources
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+D:\my files\桌面\WMS 标准\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb
+D:\my files\桌面\WMS   标准合并版\BIN\WarehouseIOBill.dll
+D:\my files\桌面\WMS   标准合并版\BIN\WarehouseIOBill.pdb
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\SunEast.App.frmBillIn.resources
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillIn.resources
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\SunEast.App.frmpBillOut.resources
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+D:\my files\桌面\WMS   标准合并版\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\BIN\WarehouseIOBill.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\BIN\WarehouseIOBill.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillIn.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillOut.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmBillIn.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Properties.Resources.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.frmReportView.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillIn.rpt
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillOut.rpt
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmBillIn.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.frmQryIOBillDtl.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Properties.Resources.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.frmReportView.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\BIN\WarehouseIOBill.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\BIN\WarehouseIOBill.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmCheckAccept.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmItemEditorIn.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\SunEast.App.frmQryIOBillDtl.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillIn_Ex.rpt
+D:\projects\广州标准版\SeWMS_Source\Windows\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillOut_Ex.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\WarehouseIOBill.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\WarehouseIOBill.pdb
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillIn.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillOut.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillIn_Ex.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.rptBillOut_Ex.rpt
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.frmBillIn.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.frmBillOut.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.frmCheckAccept.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.FrmItemEditor.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.frmItemEditorIn.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\SunEast.App.frmQryIOBillDtl.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Properties.Resources.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.Rpts.frmReportView.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.csproj.GenerateResource.Cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\WarehouseIOBill\obj\Debug\WarehouseIOBill.pdb

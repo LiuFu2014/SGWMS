@@ -1,0 +1,15 @@
+D:\work\Projects\PINGHAI-RDSD090066\Source\bin\SeDBClient.dll
+D:\work\Projects\PINGHAI-RDSD090066\Source\bin\SeDBClient.pdb
+D:\work\Projects\PINGHAI-RDSD090066\Source\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\PINGHAI-RDSD090066\Source\SeDBClient\obj\Debug\SeDBClient.dll
+D:\work\Projects\PINGHAI-RDSD090066\Source\SeDBClient\obj\Debug\SeDBClient.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\SeDBClient.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\SeDBClient.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\SeDBClient.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\SeDBClient.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\SeDBClient.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\SeDBClient.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\SeDBClient.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\SeDBClient\obj\Debug\SeDBClient.pdb

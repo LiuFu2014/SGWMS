@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PubDBCommFuns.dll
+..\bin\PubDBCommFuns.dll
+..\bin\PubDBCommFuns.pdb
+obj\Debug\PubDBCommFuns.pdb
+..\..bin\PubDBCommFuns.dll
+..\..bin\PubDBCommFuns.pdb
+..\..\bin\PubDBCommFuns.dll
+..\..\bin\PubDBCommFuns.pdb

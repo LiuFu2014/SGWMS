@@ -1,0 +1,7 @@
+..\bin\FileFun.dll
+..\bin\FileFun.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FileFun.dll
+obj\Debug\FileFun.pdb
+..\..\bin\FileFun.dll
+..\..\bin\FileFun.pdb

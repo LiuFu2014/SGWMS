@@ -1,0 +1,114 @@
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\bin\UserManager.dll
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\bin\UserManager.pdb
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\UserManager.dll
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\UserManager.pdb
+D:\my files\我的文档\My RTX Files\09582\新建文件夹 (2)\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\bin\UserManager.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\bin\UserManager.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\UserManager.dll
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\UserManager.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\bin\UserManager.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\bin\UserManager.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\UserManager.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\WMS 标准\WMS 标准\UserManager\obj\Debug\UserManager.pdb
+D:\my files\我的文档\My RTX Files\09582\WMS 标准\UserManager\obj\Debug\SunEast.App.frmUserRight.resources
+D:\my files\桌面\WMS 标准\bin\UserManager.dll
+D:\my files\桌面\WMS 标准\bin\UserManager.pdb
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\SunEast.App.frmUserRight.resources
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\UserManager.dll
+D:\my files\桌面\WMS 标准\UserManager\obj\Debug\UserManager.pdb
+D:\my files\桌面\WMS   标准合并版\bin\UserManager.dll
+D:\my files\桌面\WMS   标准合并版\bin\UserManager.pdb
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\SunEast.App.frmUserRight.resources
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\UserManager.dll
+D:\my files\桌面\WMS   标准合并版\UserManager\obj\Debug\UserManager.pdb
+E:\Windows33\bin\UserManager.dll
+E:\Windows33\bin\UserManager.pdb
+E:\Windows33\UserManager\obj\Debug\ResolveAssemblyReference.cache
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmDept.resources
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmSetUserPwd.resources
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmSupplier.resources
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+E:\Windows33\UserManager\obj\Debug\SunEast.App.frmUserRight.resources
+E:\Windows33\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+E:\Windows33\UserManager\obj\Debug\UserManager.dll
+E:\Windows33\UserManager\obj\Debug\UserManager.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\UserManager.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\UserManager.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmCompany.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmCuSuAvailability.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmDept.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmSetUserPwd.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmSupplier.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmUserInfo.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\SunEast.App.frmUserRight.resources
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\UserManager.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\UserManager.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserManager.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmCompany.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmCuSuAvailability.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmDept.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmSelCuSupplier.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmSetUserPwd.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmSupplier.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmUserInfo.resources
+D:\projects\广州标准版\SeWMS_Source\Windows\UserManager\obj\Debug\UserMS.frmUserRight.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\UserManager.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\bin\UserManager.pdb
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmCompany.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmCuSuAvailability.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmDept.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSelCuSupplier.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSetUserPwd.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSupplier.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmUserInfo.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmUserRight.resources
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.dll
+F:\Project\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.pdb
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\bin\UserManager.dll
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\bin\UserManager.pdb
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\ResolveAssemblyReference.cache
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmCompany.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmCuSuAvailability.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmDept.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSelCuSupplier.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSetUserPwd.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmSupplier.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmUserInfo.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserMS.frmUserRight.resources
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.dll
+C:\d\MyWork\广州标准版\SeWMS_Source\Windows\ModuleApp\Module\UserManager\obj\Debug\UserManager.pdb

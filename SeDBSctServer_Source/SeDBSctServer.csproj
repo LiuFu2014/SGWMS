@@ -1,0 +1,184 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCC08B48-DEB6-4958-97CA-CDCF18226317}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SeDBSctServer</RootNamespace>
+    <AssemblyName>SeDBSctServer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <ApplicationIcon>dbSvr.ico</ApplicationIcon>
+    <PublishUrl>http://localhost/SeDBSctServer/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Zdx.LogManage">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Zdx.LogManage.dll</HintPath>
+    </Reference>
+    <Reference Include="DSetHelper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DSetHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="ZqmXml">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZqmXml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RF.Server\Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RF.Server\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RF.Server\DoClientTcp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RF.Server\DoSckRecievedData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RF.Server\ThreadServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RF.Server\WMSService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RF.Server\WMSService.Designer.cs">
+      <DependentUpon>WMSService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeDBSctServer.Properties\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeDBSctServer.Properties\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeDBSctServer\DoSckRecievedData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeDBSctServer\ThreadServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="SeDBSctServer.Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RF.Server\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dbSvr.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppBaseClass\AppBaseClass.csproj">
+      <Project>{3131FB42-A928-4D83-B56B-653B3D5F214D}</Project>
+      <Name>AppBaseClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{69B9B8E7-7B42-4405-8B0D-30EA6212DBE3}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBBase\DBBase.csproj">
+      <Project>{BBC04030-5D3A-4D94-8451-2864690C6B2A}</Project>
+      <Name>DBBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBCommInfo\DBCommInfo.csproj">
+      <Project>{25EAF977-A223-4F9B-9A5A-F3DF3058DCDB}</Project>
+      <Name>DBCommInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+..\bin\UserManager.dll
+..\bin\UserManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UserManager.dll
+obj\Debug\UserManager.pdb
+obj\Debug\UserManager.csproj.GenerateResource.Cache
+obj\Debug\UserMS.frmCompany.resources
+obj\Debug\UserMS.frmCuSuAvailability.resources
+obj\Debug\UserMS.frmDept.resources
+obj\Debug\UserMS.frmSelCuSupplier.resources
+obj\Debug\UserMS.frmSetUserPwd.resources
+obj\Debug\UserMS.frmSupplier.resources
+obj\Debug\UserMS.frmUserInfo.resources
+obj\Debug\UserMS.frmUserRight.resources
+..\..\..\bin\UserManager.dll
+..\..\..\bin\UserManager.pdb

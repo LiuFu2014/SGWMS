@@ -1,0 +1,171 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3FFA0669-E357-4B0F-8BF5-BBC9BFCEAF9E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserManager</RootNamespace>
+    <AssemblyName>UserManager</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\BIN\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppBaseClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\AppBaseClass.dll</HintPath>
+    </Reference>
+    <Reference Include="CommIF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="DBCommInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\DBCommInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Login, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\Login.dll</HintPath>
+    </Reference>
+    <Reference Include="PubDBCommFuns, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\BIN\PubDBCommFuns.dll</HintPath>
+    </Reference>
+    <Reference Include="SeDBClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\SeDBClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextPYWB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BIN\TextPYWB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBFuns.cs" />
+    <Compile Include="frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuSuAvailability.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCuSuAvailability.Designer.cs">
+      <DependentUpon>frmCuSuAvailability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDept.Designer.cs">
+      <DependentUpon>frmDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelCuSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelCuSupplier.Designer.cs">
+      <DependentUpon>frmSelCuSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetUserPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetUserPwd.Designer.cs">
+      <DependentUpon>frmSetUserPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplier.designer.cs">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserRight.designer.cs">
+      <DependentUpon>frmUserRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCompany.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCuSuAvailability.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCuSuAvailability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDept.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelCuSupplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelCuSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetUserPwd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetUserPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplier.resx">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserRight.resx">
+      <DependentUpon>frmUserRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppBaseForm\AppBaseForm.csproj">
+      <Project>{2E454991-8A43-4B41-B190-DF4C465EDD3C}</Project>
+      <Name>AppBaseForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{69B9B8E7-7B42-4405-8B0D-30EA6212DBE3}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

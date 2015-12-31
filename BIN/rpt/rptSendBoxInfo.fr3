@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="41052.5825484606" ReportOptions.Description.Text="" ReportOptions.LastChange="41052.6118341204" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A80003546F7002300844617461736574730E00095661726961626C65730E00055374796C650E00">
+  <TfrxReportPage Name="Page1" PaperWidth="100" PaperHeight="50" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMemoView Name="Memo1" Left="13.11812" Top="9.89765" Width="77.92919" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="货主名称" ParentFont="False"/>
+    <TfrxMemoView Name="txt_UnitName" Left="84.92919" Top="9.89765" Width="279.68522" Height="18.89765" GroupIndex="0" Memo.Text="良方世纪"/>
+    <TfrxMemoView Name="Memo3" Left="13.11812" Top="39.91342" Width="77.92919" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="客户名称" ParentFont="False"/>
+    <TfrxMemoView Name="txt_Customer" Left="84.92919" Top="39.91342" Width="279.68522" Height="18.89765" GroupIndex="0" Memo.Text="良方世纪"/>
+    <TfrxMemoView Name="Memo5" Left="13.11812" Top="66.14966" Width="77.92919" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="送货地址" ParentFont="False"/>
+    <TfrxMemoView Name="txt_CostomerAddress" Left="84.92919" Top="66.14966" Width="279.68522" Height="37.7953" GroupIndex="0" Memo.Text="良方世纪&#13;&#10;士大夫但是"/>
+    <TfrxMemoView Name="Memo7" Left="13.11812" Top="112.28355" Width="77.92919" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="送货电话" ParentFont="False"/>
+    <TfrxMemoView Name="txt_CustomerTel" Left="84.92919" Top="112.28355" Width="282.02381" Height="18.89765" GroupIndex="0" Memo.Text="送货电话  ："/>
+    <TfrxMemoView Name="Memo9" Left="12.89765" Top="137.96073" Width="77.92919" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="拣选口号" ParentFont="False"/>
+    <TfrxMemoView Name="txt_Port" Left="85.26778" Top="137.96073" Width="77.92919" Height="18.89765" GroupIndex="0" Memo.Text="5 号口"/>
+    <TfrxMemoView Name="Memo11" Left="186.9765" Top="137.96073" Width="55.25201" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Memo.Text="箱号" ParentFont="False"/>
+    <TfrxMemoView Name="txt_BoxNo" Left="251.22851" Top="137.96073" Width="115.72449" Height="18.89765" GroupIndex="0" Memo.Text="第 1 箱 总共 6 箱"/>
+    <TfrxBarCodeView Name="BarCode" Left="56.13389" Top="160.96073" Width="244" Height="55.47248" GroupIndex="0" BarType="bcCode128A" Rotation="0" ShowText="False" Text="12345678" Zoom="2"/>
+    <TfrxLineView Name="Line1" Left="9.33859" Top="3.77953" Width="0" Height="154.96073" GroupIndex="0" Frame.Typ="1"/>
+    <TfrxLineView Name="Line2" Left="9.33859" Top="158.74026" Width="362.83488" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line3" Left="9.33859" Top="3.77953" Width="362.83488" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line4" Left="372.17347" Top="3.77953" Width="0" Height="154.96073" GroupIndex="0" Frame.Typ="1"/>
+    <TfrxLineView Name="Line5" Left="9.33859" Top="33.01577" Width="359.05535" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line6" Left="9.33859" Top="63.25201" Width="359.05535" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line7" Left="9.33859" Top="107.60637" Width="359.05535" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line8" Left="9.33859" Top="135.06308" Width="359.05535" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxLineView Name="Line9" Left="81.14966" Top="3.77953" Width="0" Height="151.1812" GroupIndex="0" Frame.Typ="1"/>
+    <TfrxLineView Name="Line10" Left="183.19697" Top="136.06308" Width="0" Height="22.67718" GroupIndex="0" Frame.Typ="1"/>
+    <TfrxLineView Name="Line11" Left="247.44898" Top="136.06308" Width="0" Height="22.67718" GroupIndex="0" Frame.Typ="1"/>
+  </TfrxReportPage>
+</TfrxReport>

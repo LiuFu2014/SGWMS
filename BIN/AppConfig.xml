@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <remoteserver server="172.20.137.167" Port="8100" servertype="1" buffersize="20480" myencoding="utf-8" />
+  <appmain ismdiform="1">
+  </appmain>
+  <printers>
+    <A4General>
+    </A4General>
+    <A4Pin>
+    </A4Pin>
+    <BarCode_PalletId RptName="rptPLT-128-8X45.fr3" PrinterName="ZDesigner ZM400 200 dpi (ZPL)" PrtMode="0" Copies="2">ZDesigner ZM400 200 dpi (ZPL)</BarCode_PalletId>
+    <BarCode_BoxId>Zebra  Z4M Plus (200dpi)</BarCode_BoxId>
+    <BarCode_MaterialId RptName="rptMatInfo-128-8X45.fr3" PrinterName="ZDesigner ZM400 200 dpi (ZPL)" PrtMode="1" Copies="1">Zebra  Z4M Plus (200dpi)</BarCode_MaterialId>
+    <BarCode_Other>Zebra  Z4M Plus (200dpi)</BarCode_Other>
+    <Invoice>
+    </Invoice>
+  </printers>
+  <OCS>
+    <CarNo CarNo="03" />
+  </OCS>
+  <DataIOIF>
+    <DataIOFile FileName="DataImporter_BJJunXu.dll" ClassName="DataImporter.DataImporter" AutoDoDataTime="10" />
+    <LcCon DBT="0" DtSource="210.10.6.50\MSSqlServer2008" DBName="SeWMS-ZHXJ" US="sa" PD="wmszhuhaixuji-------" />
+    <RtCon DBT="0" DtSource="210.12" DBName="AIS20060824173158" US="sa" PD="123456-------" />
+    <!--dbtMSSQL = 0, dbtMSAccess = 1, dbtOracle = 2, dbtMySQL = 3, dbtDBTwo = 4, dbtParadox = 5, dbtExcel = 6-->
+  </DataIOIF>
+  <ECS>
+    <OptGroup Default="前排" />
+  </ECS>
+</config>

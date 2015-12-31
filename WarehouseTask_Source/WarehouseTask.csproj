@@ -1,0 +1,312 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B9B3351-1941-4A4E-900B-8E704D585815}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>WarehouseTask</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WarehouseTask</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppBaseClass">
+      <Name>AppBaseClass</Name>
+      <HintPath>AppBaseClass.dll</HintPath>
+    </Reference>
+    <Reference Include="CommIF">
+      <Name>CommIF</Name>
+      <HintPath>CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DBBase">
+      <Name>DBBase</Name>
+      <HintPath>DBBase.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="PubDBCommFuns">
+      <Name>PubDBCommFuns</Name>
+      <HintPath>PubDBCommFuns.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SunEast.App\DBFuns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmInEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmInStoreByAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmOutAndSee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmOutEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmOutStoreByAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmpTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\FrmSelectPallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\FrmStockMExceptionSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\FrmStockMExceptionSetFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\FrmStockMPalletWMSIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\FrmStockMPltWMSOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmTaskCheckOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmWareCellState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\frmWareCellState.designer.cs">
+      <DependentUpon>frmWareCellState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SunEast.App\MyConfigure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\TaskType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\WarehouseTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouseTask.Rpts\frmReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseTask.Rpts\RptData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareHouseTask.Rpts\RptTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WarehouseTask.Rpts\rptTaskList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTaskList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WarehouseTask.Rpts\rptWKTaskDtlCount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWKTaskDtlCount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WarehouseTask\frmInputWorkDsn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseTask\LockPallInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunEast.App\FrmStockMPalletWMSIn.resx">
+      <DependentUpon>FrmStockMPalletWMSIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunEast.App\FrmStockMPltWMSOut.resx">
+      <DependentUpon>FrmStockMPltWMSOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunEast.App\frmTask.resx">
+      <DependentUpon>frmTask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunEast.App\frmWareCellState.resx">
+      <DependentUpon>frmWareCellState.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseTask.Rpts\rptTaskList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTaskList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseTask.Rpts\rptWKTaskDtlCount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWKTaskDtlCount.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppBaseForm\AppBaseForm.csproj">
+      <Project>{2E454991-8A43-4B41-B190-DF4C465EDD3C}</Project>
+      <Name>AppBaseForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommBase\CommBase.csproj">
+      <Project>{69B9B8E7-7B42-4405-8B0D-30EA6212DBE3}</Project>
+      <Name>CommBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBCommInfo\DBCommInfo.csproj">
+      <Project>{25EAF977-A223-4F9B-9A5A-F3DF3058DCDB}</Project>
+      <Name>DBCommInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeDBClient\SeDBClient.csproj">
+      <Project>{8A4A1758-5FFB-4EA3-8157-C51FE135DC83}</Project>
+      <Name>SeDBClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WareStore\WareStore.csproj">
+      <Project>{5174D418-01B6-429C-9859-7CAC380F2C18}</Project>
+      <Name>WareStore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

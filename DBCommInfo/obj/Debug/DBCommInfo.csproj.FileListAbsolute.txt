@@ -1,0 +1,15 @@
+E:\工作项目\标准版\windows\bin\DBCommInfo.dll
+E:\工作项目\标准版\windows\bin\DBCommInfo.pdb
+E:\工作项目\标准版\windows\Server\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+E:\工作项目\标准版\windows\Server\DBCommInfo\obj\Debug\DBCommInfo.dll
+E:\工作项目\标准版\windows\Server\DBCommInfo\obj\Debug\DBCommInfo.pdb
+E:\WMS\BIN\DBCommInfo.dll
+E:\WMS\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+E:\WMS\DBCommInfo\obj\Debug\DBCommInfo.dll
+E:\WMS\DBCommInfo\obj\Debug\DBCommInfo.pdb
+E:\WMS\BIN\DBCommInfo.pdb
+D:\项目资料\韶钢\WMS20151230\WMS\BIN\DBCommInfo.dll
+D:\项目资料\韶钢\WMS20151230\WMS\BIN\DBCommInfo.pdb
+D:\项目资料\韶钢\WMS20151230\WMS\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\项目资料\韶钢\WMS20151230\WMS\DBCommInfo\obj\Debug\DBCommInfo.dll
+D:\项目资料\韶钢\WMS20151230\WMS\DBCommInfo\obj\Debug\DBCommInfo.pdb

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40637.6808799884" ReportOptions.Description.Text="" ReportOptions.LastChange="40651.75230125" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A80003546F7002300844617461736574730E00095661726961626C65730E00055374796C650E00">
+  <TfrxReportPage Name="Page1" PaperWidth="60" PaperHeight="45" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxBarCodeView Name="BarCode" Left="39.67718" Top="100.92919" Width="155" Height="60.47248" GroupIndex="0" BarType="bcCode128A" Rotation="0" Text="37993012005" Zoom="1"/>
+    <TfrxMemoView Name="Memo1" Left="13.11812" Top="9.55906" Width="52.7953" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Memo.Text="名称  ：" ParentFont="False"/>
+    <TfrxMemoView Name="Memo2" Left="12.77953" Top="55.01577" Width="47.7953" Height="18.89765" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Memo.Text="规格  ：" ParentFont="False"/>
+    <TfrxMemoView Name="Memo3" Left="54.03154" Top="11.22047" Width="162.96073" Height="42.01577" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Memo.Text="IBM服务器，打印机等等测试用，呵呵&#13;&#10;第三方" ParentFont="False"/>
+    <TfrxLineView Name="Line1" Left="54.91342" Top="54.7953" Width="162.1812" Height="0" GroupIndex="0" Frame.Typ="4"/>
+    <TfrxMemoView Name="Memo4" Left="53.57483" Top="55.35436" Width="162.96073" Height="42.01577" GroupIndex="0" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Memo.Text="IBM服务器，打印机等等测试用，呵呵&#13;&#10;第三方" ParentFont="False"/>
+    <TfrxLineView Name="Line2" Left="15.45671" Top="98.92919" Width="200.1812" Height="0" GroupIndex="0" Frame.Typ="4"/>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DataSet="frxDBRpt" DataSetName="rptData" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40635.8965010069" ReportOptions.Description.Text="" ReportOptions.LastChange="40637.7091708218" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A80003546F7002300844617461736574730E00095661726961626C65730E00055374796C650E00">
+  <TfrxReportPage Name="Page1" PaperWidth="55" PaperHeight="30" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxBarCodeView Name="BarCode" Left="15.11812" Top="3.77953" Width="178" Height="105.82684" GroupIndex="0" BarType="bcCode128A" Rotation="0" Text="10004" Zoom="2"/>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,391 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4185AA78-36B4-47C6-8C30-6ADE18B4EC4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WareStore</RootNamespace>
+    <AssemblyName>WareStore</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/WareStore/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="CommIF">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CommIF.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="AppBaseForm">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>AppBaseForm.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="AppBaseClass">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>AppBaseClass.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CommBase">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CommBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="PubDBCommFuns">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>PubDBCommFuns.dll</HintPath>
+    </Reference>
+    <Reference Include="DBCommInfo">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DBCommInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="DataInFromMid">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DataInFromMid.dll</HintPath>
+    </Reference>
+    <Reference Include="SeDBClient">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SeDBClient.dll</HintPath>
+    </Reference>
+    <Reference Include="DataImpExp">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DataImpExp.dll</HintPath>
+    </Reference>
+    <Reference Include="WarehouseBase">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>WarehouseBase.dll</HintPath>
+    </Reference>
+    <Reference Include="FileFun">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>FileFun.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SunEast.App\WareStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\FrmRptShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore\MyTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Properties\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\rptSlackMatCount.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\CachedrptSlackMatCount.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\FrmStockMCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelBillInDtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\Form_StockMCheckFilter1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\InOutRece.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\CachedInOutRece.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore\frmSlackMatCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelDoBadProdMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\FrmItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\FrmStockMCheckFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelStkMaterail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmMoving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmDtlAjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\frmRptViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\DoSelMaterialEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\DBFuns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmStoreBatchNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\DoSelIOStoreMatBillDataEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelIOBillMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmChkDtlWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Properties\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmChkPosList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmBillRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\InOutReceAll.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\CachedInOutReceAll.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\FrmSelectCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmMergePallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore\frmRptInOutRece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\myDS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\rptCheckList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\CachedrptCheckList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmSelPosFromAndTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\FrmStockMAjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStoreMS\frmStBadMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\rptCheckDtl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WareStore.Rpts\CachedrptCheckDtl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="WareStore.Rpts\FrmRptShow.resx">
+      <DependentUpon>FrmRptShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmStBadMaterial.resx">
+      <DependentUpon>frmStBadMaterial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmChkDtlWrite.resx">
+      <DependentUpon>frmChkDtlWrite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore.Rpts.rptSlackMatCount.rpt" />
+    <EmbeddedResource Include="WareStoreMS\frmSelIOBillMat.resx">
+      <DependentUpon>frmSelIOBillMat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelMaterial.resx">
+      <DependentUpon>frmSelMaterial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\FrmItemEditor.resx">
+      <DependentUpon>FrmItemEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\FrmStockMCheckFilter.resx">
+      <DependentUpon>FrmStockMCheckFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\FrmStockMCheck.resx">
+      <DependentUpon>FrmStockMCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelBillInDtl.resx">
+      <DependentUpon>frmSelBillInDtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore\frmRptInOutRece.resx">
+      <DependentUpon>frmRptInOutRece.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmDtlAjust.resx">
+      <DependentUpon>frmDtlAjust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore.Rpts.rptCheckDtl.rpt" />
+    <EmbeddedResource Include="WareStoreMS\frmStoreBatchNo.resx">
+      <DependentUpon>frmStoreBatchNo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\FrmStockMAjust.resx">
+      <DependentUpon>FrmStockMAjust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore.Rpts.rptCheckList.rpt" />
+    <EmbeddedResource Include="WareStore.Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelDoBadProdMode.resx">
+      <DependentUpon>frmSelDoBadProdMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmMergePallet.resx">
+      <DependentUpon>frmMergePallet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\FrmSelectCell.resx">
+      <DependentUpon>FrmSelectCell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmChkPosList.resx">
+      <DependentUpon>frmChkPosList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\Form_StockMCheckFilter1.resx">
+      <DependentUpon>Form_StockMCheckFilter1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelStkMaterail.resx">
+      <DependentUpon>frmSelStkMaterail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore.Rpts.InOutReceAll.rpt" />
+    <EmbeddedResource Include="WareStore\frmSlackMatCount.resx">
+      <DependentUpon>frmSlackMatCount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStore.Rpts.InOutRece.rpt" />
+    <EmbeddedResource Include="WareStore.Rpts\frmRptViewer.resx">
+      <DependentUpon>frmRptViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmBillRemove.resx">
+      <DependentUpon>frmBillRemove.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelItemList.resx">
+      <DependentUpon>frmSelItemList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmMoving.resx">
+      <DependentUpon>frmMoving.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareStoreMS\frmSelPosFromAndTo.resx">
+      <DependentUpon>frmSelPosFromAndTo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>False</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+E:\工作项目\标准版\windows\bin\SeDBClient.dll
+E:\工作项目\标准版\windows\bin\SeDBClient.pdb
+E:\工作项目\标准版\windows\Server\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+E:\工作项目\标准版\windows\Server\SeDBClient\obj\Debug\SeDBClient.dll
+E:\工作项目\标准版\windows\Server\SeDBClient\obj\Debug\SeDBClient.pdb
+E:\WMS\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+E:\WMS\SeDBClient\obj\Debug\SeDBClient.pdb
+E:\WMS\BIN\SeDBClient.dll
+E:\WMS\BIN\SeDBClient.pdb
+E:\WMS\SeDBClient\obj\Debug\SeDBClient.dll
+D:\项目资料\韶钢\WMS20151230\WMS\BIN\SeDBClient.dll
+D:\项目资料\韶钢\WMS20151230\WMS\BIN\SeDBClient.pdb
+D:\项目资料\韶钢\WMS20151230\WMS\SeDBClient\obj\Debug\ResolveAssemblyReference.cache
+D:\项目资料\韶钢\WMS20151230\WMS\SeDBClient\obj\Debug\SeDBClient.dll
+D:\项目资料\韶钢\WMS20151230\WMS\SeDBClient\obj\Debug\SeDBClient.pdb

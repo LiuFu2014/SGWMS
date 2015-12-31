@@ -1,0 +1,15 @@
+D:\work\Projects\PINGHAI-RDSD090066\Source\bin\DBCommInfo.dll
+D:\work\Projects\PINGHAI-RDSD090066\Source\bin\DBCommInfo.pdb
+D:\work\Projects\PINGHAI-RDSD090066\Source\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\PINGHAI-RDSD090066\Source\DBCommInfo\obj\Debug\DBCommInfo.dll
+D:\work\Projects\PINGHAI-RDSD090066\Source\DBCommInfo\obj\Debug\DBCommInfo.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\DBCommInfo.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\bin\DBCommInfo.pdb
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\DBCommInfo.dll
+D:\work\Projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\DBCommInfo.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\DBCommInfo.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\bin\DBCommInfo.pdb
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\DBCommInfo.dll
+D:\projects\广州标准版\SeWMS_Source\Windows\Server\DBCommInfo\obj\Debug\DBCommInfo.pdb

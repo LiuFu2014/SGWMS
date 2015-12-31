@@ -1,0 +1,15 @@
+bin\Debug\SeDBClient.dll
+bin\Debug\SeDBClient.pdb
+bin\Debug\DBCommInfo.dll
+bin\Debug\ZqmSocketClient.dll
+bin\Debug\DBCommInfo.pdb
+bin\Debug\ZqmSocketClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SeDBClient.dll
+obj\Debug\SeDBClient.pdb
+..\..bin\SeDBClient.dll
+..\..bin\SeDBClient.pdb
+..\..\bin\SeDBClient.dll
+..\..\bin\SeDBClient.pdb
+..\bin\SeDBClient.dll
+..\bin\SeDBClient.pdb

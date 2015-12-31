@@ -1,0 +1,13 @@
+..\..\bin\AppBaseForm.dll
+..\..\bin\AppBaseForm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UI.FrmFindBase.resources
+obj\Debug\UI.FrmSTable.resources
+obj\Debug\UI.FrmTest.resources
+obj\Debug\AppBaseForm.Properties.Resources.resources
+obj\Debug\AppBaseForm.csproj.GenerateResource.Cache
+obj\Debug\AppBaseForm.dll
+obj\Debug\AppBaseForm.pdb
+..\bin\AppBaseForm.dll
+..\bin\AppBaseForm.pdb
+obj\Debug\UI.frmInputMessage.resources
